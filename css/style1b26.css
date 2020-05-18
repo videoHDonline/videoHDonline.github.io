@@ -1,0 +1,199 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}
+
+.clearfix:before,.clearfix:after {content:"";display:table;}
+.clearfix:after {clear:both;}
+.clearfix {zoom:1;}
+
+body { font: 14px 'Exo 2'; }
+
+strong, b { font-weight: 800; }
+i { font-style: italic; }
+sup { vertical-align: super; font-size: 0.5em; }
+
+input[type='text'],
+textarea { border: none; font: 17px 'PT Sans'; height: 38px; padding: 2px 11px 3px; margin: 0; outline: none;  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; box-shadow: inset 0 1px 1px rgba(0,0,0,0.29); -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.29); -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.29); }
+input.error[type='text'],
+textarea.error { background: #FF8026; }
+textarea { padding-top: 10px; resize: none; }
+
+a img { border: 0; }
+
+.inner { width: 940px; margin: 0 auto; }
+.left-col { float: left; }
+.right-col { float: right; }
+
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+
+.orange-btn {
+	text-align: center; display: inline-block; color: #575757; text-decoration: none; 
+	font: bold 18px/20px Arial, sans-serif; background: #fe9813 url(../i/orange-btn.png) repeat-x; padding: 11px 22px;
+	text-shadow: 0 0 8px #FFFFFF;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	box-shadow: 0 1px 2px #315400; -webkit-box-shadow: 0 1px 2px #315400; -moz-box-shadow: 0 1px 2px #315400;
+}
+.orange-btn span { display: inline-block; line-height: 18px; }
+.orange-btn:hover { background-image: url(../i/orange-btn-hover.png); background-color: #ffbc39; }
+.orange-btn:active { background-image: url(../i/orange-btn-act.png); background-color: #e0a70c; }
+
+.brown-btn {
+	text-align: center; display: inline-block; color: #FFF !important; text-decoration: none; font: bold 18px/20px Arial, sans-serif; background: #a7290c url(../i/brown-btn.png) repeat-x; padding: 10px 34px;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.63); -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.63); -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.63);
+}
+
+.order-form {}
+	.order-form header { font-size: 24px; font-weight: bold; padding: 26px 17px 25px; line-height: 28px; }
+	.order-form input { display: block; }
+	.order-form article { padding: 0 18px; } 
+	.order-form input,
+	.order-form textarea { margin-bottom: 17px; }
+
+.timer { margin: 43px 0 11px; }
+	.timer .timer-digits > div { float: left; text-align: center; margin: 0 0 0 18px; }
+	.timer .timer-digits > div span { font-size: 12px; }
+	.timer .timer-digits i { display: block; color: #FFF; letter-spacing: 18px; padding-left: 8px; font-style: normal; font-weight: bold; font-size: 24px; width: 53px; height: 41px; line-height: 41px; background: url('../i/timer-digit.html'); }
+	.timer .timer-digits i.days { width: 22px; }
+
+#header {
+	position: relative; z-index: 100; left: 0; top: 0; width: 100%; height: 76px; background: #FFF;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45); -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45); -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+}
+	#header .logo { float: left; margin-top: 7px; margin-bottom: 0; }
+	#header .h1 { float: left; margin-left: 25px; margin-top: 17px; width: 300px; color: #814623; font-size: 17px; line-height: 20px; }
+		#header .h1 span { font-size: 23px; line-height: 32px; }
+	#header .right-col { text-align: right; }
+		#header .phone-num { font-size: 25px; margin-bottom: 7px; }
+		.right-col > div{ display: inline-block; margin-left: 15px; margin-top: 14px;}
+
+#first { height: 170px; background: url('../i/first-bg.jpg') no-repeat fixed top center #000; background-attachment: fixed; padding-top: 500px; position: relative; }
+	#first h1{ font-size: 36px; text-align: center; color: #ffffff; margin-bottom: 10px;}
+	#first h2{ font-size: 23px; text-align: center; font-weight: normal; padding: 0 20px 25px;  color: #ffffff;}
+	#first .right-col { margin-right: -10px; width: 329px; padding-top: 57px; }
+		#first .order-form { background: #555; background: rgba(20,20,20,0.63); border-radius: 11px; -moz-border-radius: 11px; -webkit-border-radius: 11px; text-align: center;}
+			#first .order-form header { color: #FFF; }
+			#first .order-form header small{ font-size: 80%;}
+			#first .order-form input,
+			#first .order-form textarea { width: 256px; display: inline-block; margin: 0 10px; }
+			#first .order-form .comment { height: 90px; }
+			#first .order-form footer { text-align: center; padding-bottom: 35px; margin-top: 25px;}
+	#first .bot-form{bottom: 25px;position: absolute;}
+
+#stats-block { height: 125px; }
+	#stats-block .inner { padding-top: 15px; }
+	#stats-block .stats-list{text-align: justify;}
+	#stats-block .stats-list li { color: #000000;display: inline-block;font-size: 22px;position: relative;text-align: center;width: 24%; text-shadow: 0 0 4px rgba(0, 0, 0, 0.11);}
+	#stats-block .upper { position: absolute; top: -8px; }
+	#stats-block .num { font-size: 56px;font-weight: bold;line-height: 58px;margin-right: 8px;text-align: center;vertical-align: middle;}
+	#stats-block .descr { display: inline-block; line-height: 20px; vertical-align: middle;}
+
+#advantages { background: url(../i/first-bg.jpg) 0 100% no-repeat; background-size: cover; background-attachment: fixed;}
+	#advantages .advantages-list { color: #FFF; padding: 48px 0 49px; text-align: justify; margin: 0 -25px;}
+		#advantages .advantages-list li {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);display: inline-block;margin: 5px;padding: 5px;text-align: left;vertical-align: top;width: 225px;border-radius: 5px;}
+			#advantages .advantages-list li div { font-size: 24px; font-weight: bold; line-height: 26px; margin-bottom: 12px; }
+			#advantages .advantages-list li p { line-height: 21px; }
+			#advantages .advantages-list li img { margin-bottom: 10px; border: 3px solid #ffffff;}
+	
+#examples { padding-top: 36px; padding-bottom: 60px; }
+	#examples h2 { font-size: 42px; font-weight: bold; color: #303030; text-align: center; margin-bottom: 37px; }
+	#examples .left-col{ width: 458px; float: left;}
+#examples .left-col h3 { font-size: 20px;margin-bottom: 20px;} 
+		#examples .left-col img { border: 3px solid #ffffff;} 
+		#examples .left-col p { font-size: 16px;line-height: 21px;margin-bottom: 15px; text-align: left;}
+	#examples .right-col { width: 420px; float: right;}
+		#examples .right-col p { font-size: 16px;line-height: 21px;margin-bottom: 15px;}
+		#examples .right-col h3 { font-size: 20px;margin-bottom: 20px;} 
+		#examples .right-col img { border: 3px solid #ffffff; border-radius: 25px;} 
+.timer_head { font-size: 24px; color: #FFF; }
+
+
+#txt p { font-size: 16px;line-height: 21px;margin-bottom: 15px; width: 900px;}
+		#txt h3 { font-size: 20px;margin-bottom: 20px; text-align: center;} 
+		#txt img { border: 3px solid #ffffff; border-radius: 25px;} 
+#txt ul { font-size: 20px;margin-bottom: 20px; text-align: left;} 
+
+.review { width: 900px; float: left;}
+.review ul { width: 870px; list-style-position: inside; margin: 0px; padding: 0px; list-style-type: none; }
+.review li { background: none repeat scroll 0% 0% #F7F7F7; margin: 0px 0px 10px; padding: 15px; border-radius: 15px; border: 1px solid #D2D2D2; }
+
+.line-form { background: url(../i/first-bg.jpg) 0 100% no-repeat; background-size: cover; background-attachment: fixed; }
+	.line-form .order-form header { padding: 36px 0 24px; text-align: center; color: #ffffff; }
+	.line-form .order-form article { padding: 0 0 14px; }
+	.line-form .order-form .first-col,
+	.line-form .order-form .second-col 	{ float: left; width: 330px; margin-right: 18px; }
+		.line-form .order-form  input { width: 302px; }
+	.line-form .order-form .btn-wrap { margin-left: 696px; }
+		.line-form .order-form .btn-wrap .send-btn { white-space: nowrap; width: 197px; }
+
+#footer { background: #000000; }
+	#footer .inner { padding-bottom: 45px; }
+	#footer a { color: #ffda4a; }
+	#footer .left-col { padding-top: 40px; width: 600px; color: #FEF823;}
+		#footer .left-col p { color: #FFF; display: inline-block; margin-right: 10px;}
+		#footer .left-col p.copyright { color: #bbb; margin-right: 25px;}
+		#footer .phone-num { font-size: 22px; margin-bottom: 8px; color: #ffffff;}
+	#footer .right-col { width: 300px; text-align: right; padding-top: 39px; }
+		#footer .right-col .made-by { color: #818487; }
+
+
+.modals {}
+	.modals .overlay { width: 100%; height: 100%; z-index: 9999; position: fixed; background: #000000; opacity: 0.5; top: 0; left: 0; }
+	.modal { display: none; background: #FFF; position: fixed; left: 50%; width: 250px; margin-left: -125px; z-index: 10000; }
+		.modal .close-btn { z-index: 10000; position: absolute; right: 11px; top: 11px; width: 12px; height: 12px; background: url('../i/modal-close.png') no-repeat; }
+		.modal .modal-text { line-height: 24px; }
+		.modal .modal-close-text { text-decoration: none; border-bottom: 1px dashed; }
+
+		.modal .order-form header { padding: 16px 0; text-align: center; font-size: 18px; font-weight: normal; }
+		.modal .order-form article { padding: 0 26px; }
+		.modal .order-form article input { margin-bottom: 17px; border: solid 1px #d7d7d7; width: 176px; border-radius: 6px; }
+		.modal .order-form footer { padding: 5px 26px 20px; }
+		.modal .order-form .send-btn { width: 200px; white-space: nowrap; padding-left: 0; padding-right: 0; }
+		
+		.modal.thanks header { padding: 28px 0; }
+
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{outline:0;}
+    #cboxContent{margin-top:20px;background:#000;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{border:5px solid #000; background:#fff;}
+        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
+        #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+        
+        #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}
+        #cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url(../js/colorbox/controls.png) no-repeat top left; width:28px; height:65px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:bottom left;}
+        #cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url(../js/colorbox/controls.png) no-repeat top right; width:28px; height:65px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:bottom right;}
+        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(../js/colorbox/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:bottom center;}

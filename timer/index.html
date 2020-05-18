@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from www.few-pages.ru/weide/timer/index.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 20 May 2014 01:29:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache">
+<script language="Javascript" type="text/javascript" src="js/jquery-1.4.1.js"></script>
+<script language="Javascript" type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+<script language="Javascript" type="text/javascript" src="js/misc.js"></script>
+<link rel="Stylesheet" type="text/css" href="style/main.css"></link>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Таймер</title>
+</head>
+<body>
+<!-- Countdown dashboard start -->
+<center>
+<div id="countdown_dashboard">
+<div class="dash days_dash">
+<span class="dash_title1">Дней</span>
+<div class="digit">0</div>
+<div class="digit">0</div>
+</div>
+<div class="dash hours_dash">
+<span class="dash_title2">Часов</span>
+<div class="digit">0</div>
+<div class="digit">0</div>
+</div>
+<div class="dash minutes_dash">
+<span class="dash_title">Минут</span>
+<div class="digit">0</div>
+<div class="digit">0</div>
+</div>
+<div class="dash seconds_dash">
+<span class="dash_title">Секунд</span>
+<div class="digit">0</div>
+<div class="digit">0</div>
+</div>
+</div>
+</center>
+<!-- Countdown dashboard end -->
+<script language="javascript" type="text/javascript">
+jQuery(document).ready(function() {
+	$('#countdown_dashboard').countDown({
+		targetOffset: {
+			'day': 		0,
+			'month': 	0,
+			'year': 	0,
+			'hour': 	7,
+			'min': 		15,
+			'sec': 		46
+		}
+	});
+});
+</script>
+</body>
+
+<!-- Mirrored from www.few-pages.ru/weide/timer/index.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 20 May 2014 01:29:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+</html>
